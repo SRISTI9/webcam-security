@@ -16,8 +16,8 @@ import io
 import psycopg2
 
 # ---------------- Email Setup ----------------
-SENDER_EMAIL = "23wh1a1206@bvrithyderabad.edu.in"
-SENDER_APP_PASSWORD = "rrfb qufz vngd ohln"
+SENDER_EMAIL = "use your email"
+#SENDER_APP_PASSWORD = "use your api key"
 log_file = "camera_log.txt"
 password = None
 
@@ -276,3 +276,4 @@ def require_password(action_callback):
     error_label.pack()
 
 root.mainloop()
+
