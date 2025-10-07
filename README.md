@@ -1,8 +1,8 @@
-🛡️ WebCam Spyware Security
+**🛡️ WebCam Spyware Security**
 
 WebCam Spyware Security is a Python desktop application that protects your webcam from unauthorized access, logs webcam activity, secures access with passwords, and even supports face recognition for unlocking sensitive actions. You can also generate and email passwords safely.
 
-🚀 Features
+**🚀 Features**
 
 🔒 Enable/Disable Webcam: Control your webcam access on Windows.
 
@@ -20,7 +20,7 @@ WebCam Spyware Security is a Python desktop application that protects your webca
 
 🌐 Project Info Page: View detailed project and developer info in a separate HTML page.
 
-🛠️ Tech Stack
+**🛠️ Tech Stack**
 
 Python 3.x – Programming language
 
@@ -36,22 +36,19 @@ Requests – Fetch images from URLs
 
 Windows Registry – Webcam access control (Admin privileges required)
 
-⚡ Installation
+**⚡ Installation**
 git clone <repository_url>
 cd webcam-security
 pip install opencv-python opencv-contrib-python pillow requests
 
+**🖱️ Usage**
 
-Note: opencv-contrib-python is required for the LBPH face recognizer.
-
-🖱️ Usage
-
-Run the application:
+**Run the application:**
 
 python main.py
 
 
-Use the GUI buttons:
+**Use the GUI buttons:**
 
 Set Password – Set a custom password or generate & email a secure password.
 
@@ -67,7 +64,7 @@ Check Status – See if the webcam is currently enabled or disabled.
 
 Project Info – Open a separate HTML page with project details and developer info.
 
-🔐 Security Notes
+**🔐 Security Notes**
 
 Webcam control works via Windows Registry edits – Admin rights are required.
 
@@ -78,3 +75,4 @@ All actions are logged locally in camera_log.txt.
 Face recognition allows secure access without typing the password.
 
 Always use strong passwords and keep your email app password secure.
+
