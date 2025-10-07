@@ -7,8 +7,8 @@ from PIL import Image, ImageTk
 import requests, io, cv2, numpy as np
 
 # ----------------- Email Setup -----------------
-SENDER_EMAIL = "23wh1a1206@bvrithyderabad.edu.in"
-SENDER_APP_PASSWORD = "rrfb qufz vngd ohln"
+SENDER_EMAIL = "your_email"
+SENDER_APP_PASSWORD = "your_password"
 log_file = "camera_log.txt"
 password = None
 
@@ -347,3 +347,4 @@ create_glow_button(frame3,"View Logs",view_logs,"#660000").grid(row=0,column=0,p
 create_glow_button(frame3,"Check Status",check_status,"#660000").grid(row=0,column=1,padx=50,pady=10)
 
 root.mainloop()
+
