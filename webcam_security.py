@@ -22,7 +22,7 @@ print("📁 Videos are being saved in:", os.getcwd())
 
 # ----------------- Email & DB Setup -----------------
 SENDER_EMAIL = "23wh1a1206@bvrithyderabad.edu.in"
-SENDER_APP_PASSWORD = "rrfb qufz vngd ohln"
+SENDER_APP_PASSWORD = "your-app-pass"
 log_file = "camera_log.txt"
 password = None
 RECIPIENT_EMAIL = "23wh1a1206@bvrithyderabad.edu.in"
@@ -641,3 +641,4 @@ create_glow_button(row2,"Face Auth Disable",lambda:recognize_face(disable_camera
 create_glow_button(row2,"Face Auth Enable",lambda:recognize_face(enable_camera),bg="#004400").pack(side="left",expand=True,padx=10)
 
 root.mainloop()
+
